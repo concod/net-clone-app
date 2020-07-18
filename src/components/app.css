@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.app {
+  background-color: #111;
+  /* width: 100vw; */
+}
+@media (max-width: 600px) {
+  .app {
+    width: 100vw;
+    overflow: hidden;
+  }
+}
